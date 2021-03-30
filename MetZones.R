@@ -10,6 +10,7 @@
 #install.packages("stringr",destdir = "d:/download/RDownload")
 #install.packages("D:/RStuff/ASReml/asreml_4.1.0.106.zip", repos = NULL, type = "win.binary")
 #install.packages("rlist")
+#install.packages("renv")
 #asreml.license.activate()#Please enter your activation code (RET or 0 to exit):XXXX-XXXX-XXXX-XXXX
 ########################################################################################################
 
@@ -20,6 +21,9 @@ library("readxl") ## just to read the data
 library("tidyverse") ## just to read the data
 library(stringr)
 library(rlist)
+library(renv)
+renv::init()
+renv::snapshot()
 
 
 options(max.print = 999999)
