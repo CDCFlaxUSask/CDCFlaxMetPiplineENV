@@ -1,0 +1,51 @@
+.colour-picker {
+  font-size: 36px;
+  background-color: darkgray;
+  color: white;
+  border: 3px solid gray;
+  border-radius: 4px;
+  padding: 8px;
+  margin-right: 18.6667px;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.25s
+}
+
+.colour-picker:hover {
+  background-color: ghostwhite;
+  color: darkgray;
+}
+.colour-picker:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.reset {
+  font-size: 36px;
+  background-color: lightcoral; 
+  color: white;
+  border: 3px solid crimson;
+  border-radius: 4px;
+  padding: 8px;  
+  cursor: pointer;
+  transition: background-color ease-in-out 0.25s
+}
+
+.reset:hover {
+  background-color: ghostwhite;
+  color: lightcoral;
+}
+
+.picker-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 8px;
+}
+
+.save {
+  background-color: dodgerblue;
+}
+
+.save:hover {
+  background-color: slateblue;
+  color: ghostwhite;
+}
